@@ -1,2 +1,43 @@
-# Ignore virtual environment
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+ENV/
+VENV/
 virt/
+
+# Django-specific
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Media uploads
+media/
+
+# Static files
+staticfiles/
+static/
+
+# Local environment settings
+.env
+*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Others
+*.bak
+*.tmp
